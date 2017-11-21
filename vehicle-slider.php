@@ -1,7 +1,7 @@
 <?php
  /*
- Plugin Name: Car Vehicle Carousel
- Plugin URI: http://glabs.tech/
+ Plugin Name: Car Vehicle Slider
+ Plugin URI: https://github.com/wdonayre/vehicle-slider
  Description: A simple plugin to include a Vehicle Carousel in any post/page
  Version: 1.0.0
  Author: Glabs Tech
