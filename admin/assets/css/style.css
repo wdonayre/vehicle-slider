@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+.holder {
+    color: green;
+    padding: 0 15px;
+    border: 1px dashed #123456;
+    background-color: #f9ffe5;
+    margin-bottom: 20px;
+}
+.holder img {
+    max-width: 400px;
+}
+
+#sort {
+    float: right;
+}
+
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: #ddd;
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-radius: 3px 3px 0 0;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Style the tab content */
+.tab-content {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Style the form label and input */
+.line-row {
+    padding: 15px 10px;
+    overflow: hidden;
+}
+.col-left {
+    width: 30%;
+}
+.col-left label {
+    color: #23282d;
+    cursor: default;
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: none;
+}
+.col-right {
+    width: 70%;
+}
+.col-right input[type=text] {
+    font-size: 16px;
+    width: 300px;
+    height: 32px;
+}
+.col-right select {
+    font-size: 16px;
+    height: 30px;
+}
+
+/* Style for Custom Column Shortcode Copy */
+#cc_txtfld {
+    border:none;
+    background:transparent;
+    box-shadow:none;
+    cursor:pointer;
+}

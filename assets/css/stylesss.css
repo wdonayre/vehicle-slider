@@ -1,0 +1,153 @@
+
+/*CHART CSS*/
+.chart-wrapper{
+    margin-top:50px!important;
+    margin-bottom:80px!important;
+}
+.chart-wrapper .row:nth-child(1){
+    height:500px;
+}
+.kf-model-column{
+    height:auto;
+    text-align:center;
+}
+.kf-model-column:nth-child(3) .row{
+    background: #10598c;
+    border-radius: 15px;
+    box-sizing: content-box !important;
+    width: 100%;
+}
+.chart-image{
+    position:absolute;
+    top:150px;
+    left:120px;
+}
+.chart-image .img-wrap{
+    width:875px;
+}
+.kf-model-wrapper h2{
+    font-size:20px;
+    /*font-family:'Montserrat Extralight';*/
+    font-weight:400;
+}
+.kf-model-titles h4{
+    font-size:30px;
+    margin-bottom:0px;
+    color:#727272;
+    font-weight:600;
+    /*font-family:'Montserrat Medium'*/
+}
+.kf-model-titles .dollar{
+    font-size:20px;
+     vertical-align:text-top!important;
+    margin-top:-10px!important;
+}
+.kf-model-titles p{
+    font-size:12px;
+    color:#727272;
+    /*font-family:'Montserrat Extralight'!important;*/
+    font-weight:400;
+}
+.kf-model-wrapper .domestic{
+    /*font-family:'Montserrat Medium';*/
+    font-weight:600;
+}
+
+.kf-model-column:nth-child(1) .kf-model-titles h4{
+    margin-top:10%;
+}
+.kf-model-column:nth-child(2) .kf-model-titles h4{
+    margin-top:50%;
+}
+.kf-model-column:nth-child(3) .kf-model-titles h4{
+    margin-top:40%;
+}
+.kf-model-column:nth-child(3) .kf-model-titles h2{
+    color:#fff;
+}
+.kf-model-column:nth-child(3) .kf-model-titles h4{
+    color:#fff;
+    font-size:59px;
+    line-height:50%;
+}
+.kf-model-column:nth-child(3) .kf-model-titles p{
+    color:#fff;
+    font-size:23px;
+    margin-top:15px;
+}
+.kf-model-column:nth-child(3) .dollar{
+    font-size:40px!important;
+}
+.kf-model-column:nth-child(3) .kf-model-wrapper img{
+    display:inline-block;
+    width:100px;
+}
+.kf-model-column:nth-child(3) .kf-model-wrapper h2{
+    display:inline-block;
+}
+.chart-wrapper:after{
+    content:'';
+    background-image:url('https://kallfly.com/wp-content/uploads/2017/11/chart-1.png');
+    background-position:center center;
+    position:absolute;
+    z-index:999;
+    background-size:78%;
+    top:40px;
+    left:10px;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+}
+.kf-mobile{
+  display:none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .kf-mobile{
+        margin-top:0px!important;
+        display:block!important;
+    }
+    .kf-desktop{
+        display:none!important;
+    }
+    .kf-model-column:nth-child(1) .kf-model-titles h4{
+        margin:0px;
+    }
+    .kf-model-column:nth-child(2) .kf-model-titles h4{
+        margin:0px;
+    }
+    .kf-model-column:nth-child(3) .kf-model-titles h4{
+        margin-top:30px;
+        color:#44bdf3;
+    }
+    .kf-model-column:nth-child(3) .kf-model-titles p{
+        color:#757475;
+
+    }
+    .chart-wrapper .row:nth-child(1){
+        height:auto;
+        margin-right:15px;
+        margin-left:15px;
+    }
+    .kf-mobile .img-wrap{
+        width:50%;
+        margin:0 auto;
+    }
+    .kf-model-column:nth-child(3) .row{
+        background:none;
+    }
+    .kf-model-column:nth-child(3){
+        background:none;
+
+    }
+    .kf-model-column:nth-child(3) .kf-model-wrapper h2{
+        color:#222;
+    }
+    .kf-model-column{
+        margin-top:25px;
+        margin-bottom:25px;
+        border-bottom:1px solid #eee
+    }
+
+}
