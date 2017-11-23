@@ -32,11 +32,11 @@ function gltv_custom_meta_box_display() {
 						<option value="Default" <?php if ( isset ( $meta2['carousel_type'] ) ) selected( $meta2['carousel_type'][0], 'Default' ); ?>>Default</option>
 						<option value="Pop-up" <?php if ( isset ( $meta2['carousel_type'] ) ) selected( $meta2['carousel_type'][0], 'Pop-up' ); ?>>Pop-up</option>
 					</select><br>
-					<span class="description carousel-options" style="display: none;">There are additional options below for Pop-up carousel type.</span>
+					<span class="description carousel-options">There are additional options below for Pop-up carousel type.</span>
 				</div>
 			</div>
 
-			<div class="line-row carousel-options" style="display: none;">
+			<div class="line-row carousel-options">
 				<div class="col-left alignleft">
 					<label>Custom Link</label>
 				</div>
@@ -46,7 +46,7 @@ function gltv_custom_meta_box_display() {
 				</div>
 			</div>
 
-			<div class="line-row carousel-options" style="display: none;">
+			<div class="line-row carousel-options">
 				<div class="col-left alignleft">
 					<label>Redirect Option</label>
 				</div>
